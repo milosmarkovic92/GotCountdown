@@ -1,0 +1,24 @@
+.App {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30%;
+}
+
+@font-face {
+	font-family: Game of Thrones; 
+	src: url('Game of Thrones.ttf');
+}
+@font-face {
+	font-family: Charlesworth; 
+	src: url('Charlesworth.ttf');
+}
+
+div { 
+	font-family: Game of Thrones, Charlesworth;
+	color: #d0d0e1;
+}
+
+.Clock-days,.Clock-hours, .Clock-minutes, .Clock-seconds {
+	display: inline;
+	margin: 10px;
+}
